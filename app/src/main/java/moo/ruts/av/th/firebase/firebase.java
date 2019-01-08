@@ -48,6 +48,7 @@ public class firebase extends AppCompatActivity {
         textv2 = (TextView) findViewById(R.id.textv2);
         textv3 = (TextView) findViewById(R.id.textv3);
         textv4 = (TextView) findViewById(R.id.textv4);
+        // https://github.com/SupawadeeMakon/LabFirebase
 
         //อ่านค่าจากฐานข้อมูล
         refer.addValueEventListener(new ValueEventListener() {
